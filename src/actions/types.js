@@ -1,0 +1,4 @@
+export const GET_DATA_SUCCESSFUL = "GET_DATA_SUCCESSFUL";
+export const SET_DATA_LOADING = "SET_DATA_LOADING";
+export const RESET_DATA = "RESET_DATA";
+export const SET_PAGE_START = "SET_PAGE_START";

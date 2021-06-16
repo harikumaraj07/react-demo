@@ -1,0 +1,60 @@
+@import "../../themes/namedVariables";
+
+.container {
+    header {
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $header-background-color;
+
+        h1 {
+            color: $header-text-color;
+        }
+    }
+
+    header + section {
+        overflow-y: scroll;
+        height: 80vh;
+        div {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: $content-background-color;
+        }
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    max-width: 60%;
+    align-self: center;
+    margin-bottom: 20px;
+    background-color: $background-white !important;
+    border-radius: 5px;
+
+    h3 {
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+        color: $title-color;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: $title-color;
+    }
+
+    P {
+        color: $text-color;
+    }
+}
+
+.loadingText {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
